@@ -18,5 +18,7 @@ main.remove()
 const newHeader = document.createElement('h1')
 newHeader.id = 'victory'
 newHeader.innerHTML = 'Gavin is the champion'
+newHeader.style.textAlign = 'center'
+newHeader.style.color = 'purple'
 
 document.body.appendChild(newHeader)
